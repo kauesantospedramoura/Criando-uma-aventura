@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do unico jogo do mundo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>um dia desses, voçê encontrou um planfeto no chão escrito"o unico jogo no mundo venha pegar" e essa carta tem uma pista para encontrar o jogo!</p>
+            <button class="btn-proximo" data-proximo="1">Japão</button>
+            <button class="btn-proximo" data-proximo="2">França</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Japão caminhando em Osaka para encontrar a primeira pista</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista nas lojas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa e jogar minecraft</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Fraça, você visita a Torre Eifel. Na carta, uma das pistas indica que para localizar a entrada para encontrar o unico jogo, você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o Mausóleu</button>
+            <button class="btn-proximo" data-proximo="6">Explorar na torre Eiffel </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No meio de umas lojas de osaka, você encontra um antiga mapa apontando que a próxima pista está
+                localizada no Suécia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Suécia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta como era o jogo.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Em Mausóleu, você descobre um mapa antigo escondido atrás de um quadro, apontando que a próxima
+                pista está no Suécia.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Suécia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a torre Eiffel, você tem vista de tudo, mas voçê não enxega nada de longe.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o Mausóleu</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Suécia, a busca do unico jogo do mundo. Você se depara com um Palácio Real de Estocolmo.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo o palácio real à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo o palácio real à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao Maisóleu, você finalmente encontra o mapa antigo. Agora, para o Suécia!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Suécia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O palácio à esquerda leva você a um lugar vazio que revelam a entrada da
+                sala secreta.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a sala secreta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O palácio à direita termina em um lugar cheio de pessoas. Apesar de belas vistas, não há sinais do jogo perdido
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro palàcio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da sala secreta, você descobre o unico jogo nesse lugar e decide jogar ele para testar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o palácio à esquerda, você finalmente encontra a sala secreta e as pistas
+                que levam no unico jogo.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a sala secreta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
